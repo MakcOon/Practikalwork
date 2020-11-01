@@ -1,0 +1,18 @@
+#include <iostream>
+#include "windows.h"
+using namespace std;
+int main()
+{
+    int a, b;
+    double S;
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    cout << "Введите катет a : ";
+    cin >> a;
+    cout << "Введите катет b : ";
+    cin >> b;
+    S = (1.0/2.0)*a*b;
+    cout << "Довжина гіпотенузи: " << S << endl;
+    system("pause");
+    return 0;
+}
