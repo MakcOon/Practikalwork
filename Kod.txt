@@ -16,3 +16,9 @@ int main()
     system("pause");
     return 0;
 }
+int main()
+{
+int c;
+cout<<c;
+cin>>c;
+}
